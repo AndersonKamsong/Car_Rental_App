@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.myapplication.viewModel;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,6 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.myapplication.view.DetailActivity;
+import com.myapplication.R;
+import com.myapplication.model.Car;
 
 import java.util.ArrayList;
 

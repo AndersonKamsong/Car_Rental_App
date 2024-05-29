@@ -1,5 +1,8 @@
 package com.myapplication;
 
+import static com.myapplication.model.Users.loginMethod;
+import static com.myapplication.model.Users.sampleUsers;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +10,11 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.myapplication.model.Users;
+import com.myapplication.view.LoginPage;
+import com.myapplication.view.carListPage;
+
 
 public class MainActivity extends AppCompatActivity {
 private Button button;

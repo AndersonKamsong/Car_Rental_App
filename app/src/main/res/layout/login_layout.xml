@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        tools:ignore="UselessParent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_margin="10dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/loginTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textSize="24dp"  />
+
+        <TextView
+            android:id="@+id/responseMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/loginName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Email or username"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="UselessParent">
+            <Button
+                android:id="@+id/cancelbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:text="Cancel"/>
+        <Button
+            android:id="@+id/loginsubmitbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:text="Submit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

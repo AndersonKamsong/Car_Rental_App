@@ -1,6 +1,5 @@
-package com.myapplication;
+package com.myapplication.view;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.myapplication.R;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -87,7 +88,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Create an Intent to launch the DetailActivity
-                Intent intent = new Intent(DetailActivity.this,carListPage.class);
+                Intent intent = new Intent(DetailActivity.this, carListPage.class);
                 // Start the DetailActivity
                 startActivity(intent);
             }

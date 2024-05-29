@@ -21,8 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".carListPage" android:label="carList"></activity>
-        <activity android:name=".DetailActivity" android:label="carList"></activity>
+        <activity android:name=".view.LoginPage" android:label="Login page"></activity>
+        <activity android:name=".view.carListPage" android:label="carList"></activity>
+        <activity android:name=".view.AdminPage" android:label="carList"></activity>
+        <activity android:name=".view.Settings" android:label="carList"></activity>
+        <activity android:name=".view.DetailActivity" android:label="carList"></activity>
     </application>
 
 </manifest>

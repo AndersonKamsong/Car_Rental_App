@@ -3,34 +3,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".carListPage">
+    tools:context=".view.carListPage">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="377dp"
+        android:layout_height="782dp"
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="342dp"
-            android:layout_height="40dp"
-            android:text="Car List"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/map_item_back_btn"
-            android:layout_width="50dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="0dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/back"
-            android:text="back" />
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <ImageButton
+                
+                android:id="@+id/map_item_back_btn"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back"
+                android:text="back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="Car List"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageButton
+                android:id="@+id/map_item_opt_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_opt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="Settings"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back" />
+
+        </LinearLayout>
 
         <ListView
             android:id="@+id/car_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 </RelativeLayout>
