@@ -44,10 +44,10 @@ public class carListPage extends AppCompatActivity {
             imageResourceId = Integer.parseInt(image);
         }
         if (userName == null) {
-            backButton.setImageResource(R.drawable.escape2020);
+            backButton.setImageResource(R.drawable.login);
             optionBtn.setVisibility(View.GONE);
         }else{
-            backButton.setImageResource(R.drawable.back);
+            backButton.setImageResource(R.drawable.logout);
             optionBtn.setVisibility(View.VISIBLE);
         }
 
@@ -58,6 +58,7 @@ public class carListPage extends AppCompatActivity {
                 intent.putExtra("name", userName);
                 String imageResource = String.valueOf(imageResourceId);
                 intent.putExtra("imageResourceId",imageResource);
+                intent.putExtra("num",45);
                 startActivity(intent);
             }
         });

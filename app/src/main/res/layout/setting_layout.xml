@@ -60,7 +60,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="0dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/back" />
+                android:src="@drawable/unknown_user" />
 
         </LinearLayout>
         <LinearLayout
@@ -82,7 +82,7 @@
                 android:layout_height="200dp"
                 android:layout_marginTop="0dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/back" />
+                android:src="@drawable/profile" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_weight="1"
@@ -106,7 +106,7 @@
                 android:layout_height="200dp"
                 android:layout_marginTop="0dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/back" />
+                android:src="@drawable/payment" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_weight="1"
@@ -138,7 +138,7 @@
                     android:layout_height="200dp"
                     android:layout_marginTop="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/back" />
+                    android:src="@drawable/view_order" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_weight="1"
@@ -162,7 +162,7 @@
                     android:layout_height="200dp"
                     android:layout_marginTop="0dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/back" />
+                    android:src="@drawable/fav" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_weight="1"

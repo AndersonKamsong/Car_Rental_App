@@ -45,10 +45,10 @@ public class LoginPage extends Activity {
         submitButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                String creds = "test2@gmail.com";
-//                String creds = String.valueOf(credsField.getText());
-                String password = "123";
-//                String password = String.valueOf(passField.getText());
+//                String creds = "test2@gmail.com";
+                String creds = String.valueOf(credsField.getText());
+//                String password = "123";
+                String password = String.valueOf(passField.getText());
                 Users user = loginMethod(creds,password,sampleUsers());
                 if (user == null) {
                     responseMsg.setText("Invalid User Name ,Email or Password");
